@@ -1,0 +1,7 @@
+Warning log on file /var/www/html/generate-logs/tests/LogTest.php: at line 27: - 2019/08/23 21:08:07
+Warning Message: Test warning.
+ =======================================
+
+Error log on file /var/www/html/generate-logs/tests/LogTest.php: at line 16: - 2019/08/23 21:08:07
+Error Message: Test error.
+ =======================================
