@@ -12,7 +12,7 @@
             "homepage": "https://github.com/xxggabriel"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
     },
     "require-dev": {
