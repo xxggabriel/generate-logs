@@ -1,0 +1,23 @@
+{
+    "name": "xxggabriel/generate-logs",
+    "description": "Generate System Logs",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["logs", "generate logs", "log system","php log"],
+    "homepage": "https://github.com/xxggabriel/generate-logs",
+    "authors": [
+        {
+            "name": "Gabriel Oliveira",
+            "email": "gabrieloliveradesouza9@gmail.com",
+            "homepage": "https://github.com/xxggabriel"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Log\\" : "/src"
+        }
+    }
+}
