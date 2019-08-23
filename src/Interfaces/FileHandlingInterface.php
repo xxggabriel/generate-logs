@@ -9,19 +9,20 @@ interface FileHandlingInterface{
      * @var $filePath = A directory string where the log files are.
      * @return void
      */
-    public function setFilePath($filePath):string;
+    public function setFilePath(string $filePath);
 
 
     /**
      * Get file directory 
      * @return string
      */
-    public function getFilePath():string;
+    public function getFilePath();
 
     /**
      * Write to log file
      * @var $information = Message already formatted to be written to log file.
+     * @return bool
      */
-    public function LogFileWriting($information);
+    public function LogFileWriting(string $information);
 
 }
